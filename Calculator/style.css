@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+html {
+    font-size: 80%;
+}
+
+@media (max-width: 1080px) {
+    html {
+        font-size: 60%;
+    }
+}
+/* @media (max-width: 768px) {
+    html {
+        font-size: 55%;
+    }
+}
+@media (max-width: 425px) {
+    html {
+        font-size: 40%;
+    } 
+}*/
+
+body {
+    font-family: 'Crimson Text', serif !important;
+}
+
+.heading {
+    margin-top: 3.5rem;
+    font-size: 4.5rem;
+}
+
+input {
+    height: 8rem;
+    border-radius: 50px;
+    font-size: 2.5rem !important;
+    background-color: #000 !important;
+    color: #eeeeee !important;
+    border-style: none;
+    vertical-align: middle;
+}
+
+.display {
+    text-align:right;
+    background-color:#fbfbfc !important;
+    color: black !important;
+}
+
+#myform {
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    font-size: 80px;
+}
+
+.addbtn,
+.sinbtn {
+    background-color:#93e2f0 !important;
+    color: #1f1d1d !important;
+}
+
+.subbtn,
+.cosbtn {
+    background-color:#e7f8c7 !important;
+    color: #1b1a1a !important;
+}
+
+.multiplybtn,
+.tanbtn {
+    background-color:#7db1b2 !important;
+    color: #020202 !important;
+}
+
+.clearbtn {
+    background-color:#d31111 !important;
+    color: #181515 !important;
+}
+
+.dividebtn,
+.logbtn {
+    background-color:green !important;
+}
